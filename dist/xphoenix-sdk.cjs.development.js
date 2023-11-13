@@ -19,8 +19,8 @@ var providers = require('@ethersproject/providers');
 var _FACTORY_ADDRESS_MAP, _INIT_CODE_HASH_MAP, _SOLIDITY_TYPE_MAXIMA;
 
 (function (ChainId) {
-  ChainId[ChainId["MAINNET"] = 66] = "MAINNET";
-  ChainId[ChainId["TESTNET"] = 97] = "TESTNET";
+  ChainId[ChainId["MAINNET"] = 42161] = "MAINNET";
+  ChainId[ChainId["TESTNET"] = 421613] = "TESTNET";
 })(exports.ChainId || (exports.ChainId = {}));
 
 (function (TradeType) {
@@ -47,7 +47,7 @@ var THREE = /*#__PURE__*/JSBI.BigInt(3);
 var FIVE = /*#__PURE__*/JSBI.BigInt(5);
 var TEN = /*#__PURE__*/JSBI.BigInt(10);
 var _100 = /*#__PURE__*/JSBI.BigInt(100);
-var FEES_NUMERATOR = /*#__PURE__*/JSBI.BigInt(9975);
+var FEES_NUMERATOR = /*#__PURE__*/JSBI.BigInt(94216135);
 var FEES_DENOMINATOR = /*#__PURE__*/JSBI.BigInt(10000);
 var SolidityType;
 
