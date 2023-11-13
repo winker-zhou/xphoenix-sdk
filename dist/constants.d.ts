@@ -15,13 +15,13 @@ export declare enum Rounding {
 }
 export declare const FACTORY_ADDRESS = "0xe6e85eF9B4127b1A9F4c1EDd73e41093eDf769A8";
 export declare const FACTORY_ADDRESS_MAP: {
-    66: string;
-    97: string;
+    42161: string;
+    421613: string;
 };
 export declare const INIT_CODE_HASH = "0x2ffa2365400e9827e0dea874e89e174cd2604fd3f6481b159b6bc07262c141a3";
 export declare const INIT_CODE_HASH_MAP: {
-    66: string;
-    97: string;
+    42161: string;
+    421613: string;
 };
 export declare const MINIMUM_LIQUIDITY: JSBI;
 export declare const ZERO: JSBI;
